@@ -1,11 +1,10 @@
-import './App.css';
-import MicrotextComponent from './Micortext';
+import "./App.css";
+import FlightBookingForm from "./Containers/FlightBookingForm";
 
 function App() {
   return (
     <div className="App">
-            <MicrotextComponent value="123456789" microtext="Example Microtext"></MicrotextComponent>
-
+      <FlightBookingForm />
     </div>
   );
 }
